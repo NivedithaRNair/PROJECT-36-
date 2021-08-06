@@ -1,4 +1,4 @@
-var dog,sadDog,happyDog,garden,washroom, database;
+var dog,happyDog, database;
 var foodS,foodStock;
 var fedTime,lastFed,currentTime;
 var feed,addFood;
@@ -6,11 +6,7 @@ var foodObj;
 var gameState,readState;
 
 function preload(){
-sadDog=loadImage("images/Dog.png");
-happyDog=loadImage("images/Happy.png");
-garden=loadImage("images/Garden.png");
-washroom=loadImage("images/WashRoom.png");
-bedroom=loadImage("images/BedRoom.png");
+
 }
 
 function setup() {
